@@ -1,0 +1,245 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*header*/
+.header {
+    padding-bottom: 5px;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(0, 0%, 100%, 0.672), hsla(196, 93%, 70%, 0.679), hsla(204, 64%, 44%, 0.672)), url(./img/header.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.titulo {
+    text-align: center;
+    color: #000000;
+    padding-top: 45px;
+    padding-bottom: 5px;
+    text-shadow: 15px 15px 30px #FFFFFF;
+}
+
+.tituloh {
+    font-family: 'Dancing Script', cursive !important;
+    font-size: 30px !important;
+
+}
+
+.titulohh {
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+}
+
+.parrafoh {
+    display: block;
+    color: #000000;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-shadow: 15px 15px 30px #FFFFFF;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px !important;
+}
+
+.emoji {
+    width: 145px;
+    box-shadow: 10px 10px 70px 10px #000000;
+    border-radius: 600px;
+}
+
+.nav {
+    display: inline;
+    box-sizing: border-box;
+    background-color: gray;
+    text-align: end;
+}
+
+.tituloh {
+    font-size: 55px;
+    padding-bottom: 1em;
+}
+
+.parrafoh {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.links {
+    display: block;
+    box-sizing: border-box;
+
+}
+
+.linkuno {
+    padding: 7px;
+    margin: 3px;
+    display: inline;
+    border-radius: 1em;
+}
+
+.linkdos {
+    padding: 7px;
+    margin: 3px;
+    display: inline;
+    border-radius: 1em;
+}
+
+.linktres {
+    padding: 7px;
+    margin: 3px;
+    display: inline;
+    border-radius: 1em;
+
+}
+
+/*Conocenos*/
+.Conocenos {
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 8px;
+    font-size: 2em;
+
+}
+.textplain:hover {
+    color:darkmagenta;
+}
+.textplain{
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+
+.abouttext {
+    font-size: 23px;
+    margin: 10px !important;
+    text-align: center;
+}
+
+.imgs {
+    width: 100%;
+    display: inline-flex !important;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.uno .imguno {
+    width: 300px;
+    margin: 15px 15px;
+    border-radius: 1em;
+    box-shadow: 10px 10px 100px 15px #000000;
+    /*box-shadow: 10px 10px 20px 0px #000000;*/
+}
+
+.dos .imgdos {
+    width: 250px;
+    margin: 15px 15px;
+    border-radius: 1em;
+    box-shadow: 10px 10px 100px 15px #000000;
+}
+
+.tres .imgtres {
+    width: 230px;
+    margin: 15px 15px;
+    border-radius: 1em;
+    box-shadow: 10px 10px 100px 15px #000000;
+}
+
+.articl {
+    background: #C9FFBF;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFAFBD, #C9FFBF);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFAFBD, #C9FFBF);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+/*Nuestros Servicios*/
+
+
+.product {
+    text-align: center;
+    padding-top: 25px;
+}
+.articl2 {
+    justify-content: center;
+}
+
+.sala {
+    background-color: green;
+    width: 50%;
+    height: 250px;
+    text-align: center;
+    justify-content: center;
+    box-sizing: content-box !important;
+}
+.salah {
+    padding-bottom: 1em;
+}
+.imgsala {
+    width: 250px;
+}
+
+
+.mesitas {
+    background-color: green;
+    /*width: 50%;
+    box-sizing: content-box !important;*/
+}
+.buffet {
+    background-color: green;
+    width: 50%;
+    height: 250px;
+    text-align: center;
+    justify-content: center;
+    box-sizing: content-box !important;
+}
+#imgbuffet {
+    width: 250px;
+}
+.meseros {
+    background-color: green;
+}
+.lonas {
+    background-color: green;
+}
+.inflables {
+    background-color: green;
+}
+.carpas {
+    background-color: green;
+}
+.sombrillas {
+    background-color: green;
+}
+.vajilla {
+    background-color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
